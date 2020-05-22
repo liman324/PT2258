@@ -20,5 +20,5 @@ void audio(){
         //pt.setVol4(0); //  int 0...79 
         //pt.setVol5(0); //  int 0...79 
         //pt.setVol6(0); //  int 0...79 
-        //pt.setMute(0); // mute 0 - off / 1 - on
+        pt.setMute(0); // mute 0 - off / 1 - on
   }
