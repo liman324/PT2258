@@ -1,0 +1,25 @@
+#include <Wire.h>
+#include <PT2258.h>
+
+PT2258 pt;
+
+void setup() {
+ pt.clear(); 
+ audio();
+
+}
+
+void loop() {
+
+}
+
+void audio(){
+       // pt.setVolume(79); //  int 0...79     
+        pt.setVol1(79); //  int 0...79       
+        pt.setVol2(79); //  int 0...79 
+        pt.setVol3(79); //  int 0...79 
+        pt.setVol4(79); //  int 0...79 
+        pt.setVol5(79); //  int 0...79 
+        pt.setVol6(79); //  int 0...79 
+        pt.setMute(79); // mute 0 - off / 1 - on
+  }
