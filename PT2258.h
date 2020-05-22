@@ -44,7 +44,7 @@ class PT2258
         void setVol4(int v4); //  int 0...79 
         void setVol5(int v5); //  int 0...79 
         void setVol6(int v6); //  int 0...79 
-        void setMute(int mute);//
+        void setMute(int mute);// mute 0 - off / 1 - on
 	
   private:
 	void writeWire(char a, char b);
