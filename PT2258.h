@@ -1,14 +1,34 @@
 // liman324@yandex.ru rcl-radio.ru
 
 
-// liman324@yandex.ru rcl-radio.ru
-
-
 #ifndef PT2258_H
 #define PT2258_H
 
-#define PT2258_address 0b1000100
-#define CLEAR          0b11000000
+#define PT2258_address 0B1000100
+#define CLEAR          0B11000000
+
+#define VOL_MASTER_10  0B11010000
+#define VOL_MASTER_1   0B11100000
+
+#define VOL_1CH_10     0B10000000
+#define VOL_1CH_1      0B10010000
+
+#define VOL_2CH_10     0B01000000
+#define VOL_2CH_1      0B01010000
+
+#define VOL_3CH_10     0B00000000
+#define VOL_3CH_1      0B00010000
+
+#define VOL_4CH_10     0B00100000
+#define VOL_4CH_1      0B00110000
+
+#define VOL_5CH_10     0B01100000
+#define VOL_5CH_1      0B01110000
+
+#define VOL_6CH_10     0B10100000
+#define VOL_6CH_1      0B10110000
+
+#define MUTE           0B11111000
 
 
 #include <Arduino.h>
